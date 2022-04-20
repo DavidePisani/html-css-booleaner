@@ -53,20 +53,55 @@ h3 span{
 p span{
     background-color: yellow;
 }
-
+                        /* LISTA */
 .list{
     margin-top: 20px;
     margin-left: 35px;
 }
-
+                        /* TABELLA */
 .table{
+    margin-top: 20px;
+    margin-left: 20px;
+    
+
+}
+table{
+    width: 100%;
+    border-collapse:collapse;      
+}
+
+th{
+    color: white;
+}
+
+td {
+    max-width: 0;
+    overflow: auto;
+    text-overflow: ellipsis;
+    }
+
+thead{
+    background-color: #20a9e5;
+    height: 20px;
+    
+}     
+ 
+#color{
+    background-color: #b1e5f2;
+}
+                                /* FINE TABELLA */
+
+.txt_down{
     margin-top: 20px;
     margin-left: 20px;
 
 }
 
-thead{
-    background-color: #20a9e5;
-    width: ;
-}     
- 
+.end_page{
+    margin-top: 20px;
+    margin-left: 20px;
+}
+
+h4{
+    color: gray;
+}
