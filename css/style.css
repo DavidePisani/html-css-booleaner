@@ -1,3 +1,36 @@
 *{
-    
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
 }
+
+/* PATTERN */
+
+.pattern{
+    background-image: url(../img/pattern.png);
+    background-color: #4ea0ff;
+    background-size: 455px;
+    }
+
+#logo{
+    margin-top: 70px;
+    width: 200px;
+    }
+                    /* TITOLO E SOTTOTITOLO */
+.titol{
+    margin-top: 15px;
+    margin-left: 8px;
+}    
+
+
+p {
+    color: grey;
+}
+
+p span{
+    color: #43b7e9;
+}
+
+#data{
+    font-size: x-small;
+    }
