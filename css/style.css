@@ -72,6 +72,7 @@ table{
 
 th{
     color: white;
+    text-align: left;
 }
 
 td {
@@ -84,19 +85,20 @@ thead{
     background-color: #20a9e5;
     height: 20px;
     
+    
 }     
  
 #color{
     background-color: #b1e5f2;
 }
                                 /* FINE TABELLA */
-
+                /* TESTO */
 .txt_down{
     margin-top: 20px;
     margin-left: 20px;
 
 }
-
+            /* INIZIO PUBLICITA' */
 .end_page{
     margin-top: 20px;
     margin-left: 20px;
@@ -104,4 +106,26 @@ thead{
 
 h4{
     color: gray;
+
 }
+
+#pub1{
+    background-image: url(../img/monitor.jpg);
+    color: white;
+    width: 270px;
+    height: 200px;
+    padding-top: 10px;
+    padding-left: 10px;
+    }
+
+    #pub2{
+        background-image: url(../img/graph.jpg);
+        color: white;
+        width: 270px;
+        height: 200px;
+        padding-top: 10px;
+        padding-left: 10px;
+        margin-top: 10px;
+        }
+
+
